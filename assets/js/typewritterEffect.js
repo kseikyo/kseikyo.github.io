@@ -8,7 +8,7 @@ const strings = [
 
 const instance = new Typewriter("#typewriter", {
   strings,
-  pauseFor: 1500,
+  pauseFor: 2500,
   autoStart: true,
   loop: true,
 });
