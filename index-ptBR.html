@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+
+<head>
+    <title>Lucas Sierota</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="description"
+        content="Eu sou um Desenvolvedor Web com experiência utilizando as melhores e mais recentes tecnologias para construir projetos">
+
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:type" content="portfolio" />
+    <meta property="og:title" content="Lucas Sierota" />
+    <meta property="og:description"
+        content="Eu sou um Desenvolvedor Web com experiência utilizando as melhores e mais recentes tecnologias para construir projetos" />
+    <meta property="og:image" content="https://github.com/kseikyo/kseikyo.github.io/blob/main/images/thumbnail.png" />
+    <meta property="og:url" content="https://lucassierota.dev" />
+    <meta property="og:site_name" content="Lucas Sierota" />
+
+    <meta name="twitter:title" content="Lucas Sierota">
+    <meta name="twitter:description"
+        content="Eu sou um Desenvolvedor Web com experiência utilizando as melhores e mais recentes tecnologias para construir projetos">
+    <meta name="twitter:image" content="https://github.com/kseikyo/kseikyo.github.io/blob/main/images/thumbnail.png">
+    <meta name="twitter:card" content="Lucas Sierota portfolio">
+
+    <link rel="preload" href="assets/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <div class="logo">
+                <i class="icon fa-gem" aria-hidden="true"></i>
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <h1>Lucas Sierota</h1>
+                    <p id="typewriter"></p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="https://drive.google.com/file/d/1o9SG8wUcpdEfPpVeb0_Pi_ooZ9ZIlvge/view">Currículo</a>
+                    </li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Projects -->
+            <article id="projects">
+                <h2 class="major">Projetos</h2>
+                <span class="image main"><img loading="lazy"
+                        srcset="images/pic01-720.jpg 1024w, images/pic01-360.jpg 640w"
+                        alt="Spider-man Miles Morales concept website" /></span>
+                <p>
+                    Este projeto consiste no desenvolvimento do conceito de um website para o lançamento do jogo
+                    Spider-man Miles Morales baseado no design feito por Násser Yousef Ali no
+                    <a href="https://www.figma.com/file/zm3fLTS6fk4gaYzaCWhMaw/Spider-man?node-id=1%3A3">figma</a>.
+
+                    <br />
+                    Você pode checar o <strong>
+                        <a href="https://github.com/kseikyo/spiderman-concept">código</a></strong> e a
+                    <a href="https://kseikyo.github.io/spiderman-concept/">versão online</a>.
+                </p>
+
+                <hr />
+
+                <span class="image main"><img loading="lazy"
+                        srcset="images/pic02-720.jpg 1024w, images/pic02-360.jpg 640w" alt="Reddit clone" /></span>
+                <p>
+                    Este é um clone da plataforma <a href="http://reddit.com">Reddit</a> focado na sua funcionalidade
+                    do backend.
+                    <br />
+                    O projeto consiste do frontend em Next, utilizando URQL para realizar SSR (server-side rendering) em
+                    algumas páginas, assim como cache das requisições. Para uma melhor experiência de desenvolvimento,
+                    foi utilizado a ferramenta graphql-codegen para gerar hooks prontos para utilização das queries e
+                    mutations, enquanto para o UI/UX, foi usado Chakra UI.
+                    <br />
+                    No servidor, foi construida uma api com GraphQL com TypeGraphQL para a criação de schemas, Apollo
+                    Server para fazer a requisição dos dados, em conjunto com Redis para armazenar os cookies da sessão,
+                    nodemailer para mandar emails automaticamente, TypeORM para criação de queries e interações em geral
+                    com
+                    o banco de dados, finalizando com dataloader para fazer batching e cache das requisições.
+                    <br />
+                    Você pode checar o <strong><a
+                            href="https://github.com/kseikyo/fullstack-next-graphql">código</a></strong> mas não há uma
+                    versão online.
+                </p>
+
+                <hr />
+
+                <span class="image main"><img loading="lazy"
+                        srcset="images/pic03-720.jpg 1024w, images/pic03-360.jpg 640w"
+                        alt="Dapp token farm concept" /></span>
+                <p>
+                    Este é um projeto simples para entender conceitos de desenvolvimento de Blockchain usando
+                    <a href="https://docs.soliditylang.org/en/latest">Solidity</a>, <a
+                        href="https://web3js.readthedocs.io/en/v1.3.0/#">Web3</a>, assim como conceitos de
+                    <a
+                        href="https://www.cryptopedro.com/blog/defi-o-que-e-defi-decentralized-finance-das-criptomoedas/i">DeFi</a>.
+                    <br />
+                    Você pode olhar o <strong><a href="https://github.com/kseikyo/token_farm">código</a></strong> mas
+                    não há versão online.
+                </p>
+            </article>
+
+            <!-- Contact -->
+            <article id="contact">
+                <h2 class="major">Contato</h2>
+                <form id="contactForm" method="POST" action="https://formspree.io/xrgyybva">
+                    <div class="fields">
+                        <div class="field half">
+                            <label for="name">Nome</label>
+                            <input type="text" name="name" id="name" />
+                        </div>
+                        <div class="field half">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" />
+                        </div>
+                        <div class="field">
+                            <label for="message">Mensagem</label>
+                            <textarea name="message" id="message" rows="4"></textarea>
+                        </div>
+                        <div class="field">
+                            <span id="contactForm__status"></span>
+                        </div>
+                    </div>
+                    <ul class="actions">
+                        <li><input type="submit" value="Send Message" class="primary" /></li>
+                        <li><input type="reset" value="Reset" /></li>
+                    </ul>
+                </form>
+                <ul class="icons">
+                    <li>
+                        <a href="https://www.github.com/kseikyo" class="icon brands fa-github fa-lg">
+                            <span class="label">
+                                GitHub
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/lucassierota" class="icon brands fa-linkedin fa-lg">
+                            <span class="label">
+                                Linkedin
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </article>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <p class="copyright">
+                &copy; Lucas Sierota.
+            </p>
+            <ul class="icons">
+                <li>
+                    <a href="https://www.github.com/kseikyo" class="icon brands fa-github fa-lg">
+                        <span class="label">
+                            GitHub
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/lucassierota" class="icon brands fa-linkedin fa-lg">
+                        <span class="label">
+                            Linkedin
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <p style="display: none">
+                Design: <a href="https://html5up.net">HTML5 UP</a>.
+            </p>
+        </footer>
+
+    </div>
+
+    <!-- BG -->
+    <!-- Photo by Clay Banks https://unsplash.com/photos/u27Rrbs9Dwc -->
+    <div id="bg"></div>
+
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/9a7e259d58.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/typewritterEffect.js"></script>
+    <script src="assets/js/formSubmission.js"></script>
+    <script src="assets/js/detectLanguage.js"></script>
+
+</body>
+
+</html>
