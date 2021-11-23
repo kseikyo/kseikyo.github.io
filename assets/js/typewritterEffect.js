@@ -1,9 +1,10 @@
 const strings = [
+  "React consultant",
+  "Javascript consultant",
   "Frontend Developer",
-  "React Developer",
-  "Blockchain Enthusiast",
-  "React Native developer",
+  "Web3 Developer",
   "Full Stack Developer",
+  "React Native developer",
 ];
 
 const instance = new Typewriter("#typewriter", {
